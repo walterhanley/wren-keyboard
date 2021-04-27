@@ -1,13 +1,14 @@
 # Wren Keyboard
 
-![wren_preview](/images/wren-preview.png)
+![Universal PCB](/images/wren-preview.png)
+![Example Layout](/images/author-layout.png)
 
 ## Introduction
 The Wren is a split ergonomic "system keyboard". It takes heavy inspiration from [Afternoon Labs' Breeze](https://afternoonlabs.com/breeze/) and [SplitKB's Kyria](https://blog.splitkb.com/blog/introducing-the-kyria), in addition to employing a case similar to the Corne's.
 
 My primary keyboard for the last few years has been Prime Keyboards' prime_o, before which I used a handwired Planck. On both I made pretty heavy use of the numpad. I grew to appreciate the prime\_o's physical one, though, mostly because I spend a lot of time in Excel at my day job and like using the mouse and numpad simultaneously. I've been wanting to switch to ergo for a while, but I was annoyed by the thought of having to use a separate numpad to recreate that experience. This project was an attempt to solve that problem.
 
-My original design, reflected in the [author layout](/images/author-layout.png), simply incorporated a southpaw numpad. After some feedback on my original deign from members of the r/ergomechkeyboards community, though, I decided to reinvent it as a "system keyboard" modeled after the old system cameras. The repository includes three boards, each reversible:
+My original design simply incorporated a southpaw numpad. After some feedback on my original deign from members of the r/ergomechkeyboards community, though, I decided to reinvent it as a "system keyboard" modeled after the old system cameras. The repository includes a universal PCB (incorporating break-away tabs) and plates to make three boards, each reversible:
 - A Lilly58/Kyria-inspired split board, with no extra keys;
 - An extended layout with a 4x4 numpad; and
 - An extended layout with a traditional nav cluster.
@@ -34,6 +35,7 @@ Additionally, a 3D printed outer case has been planned. This design wraps the PC
 
 ## Cost Estimates
 It should be relatively affordable to have these boards manufactured; here are my cost estimates at JLCPCB as of April 2021:
+- Universal PCB (5 boards): $14.30
 - Numpad PCB (5 boards): $14.30
 - Numpad top plate (5 boards): $13.90
 - Numpad bottom plate (5 boards): $14.30
@@ -47,7 +49,7 @@ It should be relatively affordable to have these boards manufactured; here are m
 ## BOM
 ### Numpad Board
 To assemble a numpad half, you'll need these parts:
-- 1 Numpad PCB
+- 1 Universal PCB
 - 1 Numpad top plate
 - 1 Numpad bottom plate
 - 1 Elite-C microcontroller
@@ -66,7 +68,7 @@ To assemble a numpad half, you'll need these parts:
 
 ### Nav Cluster Board
 To assemble a nav cluster half, you'll need these parts:
-- 1 Nav cluster PCB
+- 1 Universal PCB
 - 1 Nav cluster top plate
 - 1 Nav cluster bottom plate
 - 1 Pro Micro compatible microcontroller
@@ -85,7 +87,7 @@ To assemble a nav cluster half, you'll need these parts:
 
 ### Plain Board
 To assemble a nav cluster half, you'll need these parts:
-- 1 Plain PCB
+- 1 Universal PCB
 - 1 Plain top plate
 - 1 Plain bottom plate
 - 1 Pro Micro compatible microcontroller

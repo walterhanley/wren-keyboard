@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9-0-10_14)"
     },
-    "CreationDate":  "2021-04-26T22:39:47-05:00"
+    "CreationDate":  "2021-04-26T22:37:03-05:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "wren-numpad",
-      "GUID": "7772656e-2d6e-4756-9d70-61642e6b6963",
+      "Name": "wren-numpad-bottom",
+      "GUID": "7772656e-2d6e-4756-9d70-61642d626f74",
       "Revision": "rev?"
     },
     "Size":
@@ -31,54 +31,53 @@
       "Layers": "Outer",
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
-      "TrackToTrack":  0.200,
-      "MinLineWidth":  0.250
+      "TrackToTrack":  0.200
     }
   ],
   "FilesAttributes":
   [
     {
-      "Path":  "wren-numpad-F_Cu.gbr",
+      "Path":  "wren-numpad-bottom-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-B_Cu.gbr",
+      "Path":  "wren-numpad-bottom-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-F_Paste.gbr",
+      "Path":  "wren-numpad-bottom-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-B_Paste.gbr",
+      "Path":  "wren-numpad-bottom-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-F_SilkS.gbr",
+      "Path":  "wren-numpad-bottom-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-B_SilkS.gbr",
+      "Path":  "wren-numpad-bottom-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-F_Mask.gbr",
+      "Path":  "wren-numpad-bottom-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "wren-numpad-B_Mask.gbr",
+      "Path":  "wren-numpad-bottom-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "wren-numpad-Edge_Cuts.gbr",
+      "Path":  "wren-numpad-bottom-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

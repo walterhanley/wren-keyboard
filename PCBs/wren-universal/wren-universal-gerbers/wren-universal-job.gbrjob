@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9-0-10_14)"
     },
-    "CreationDate":  "2021-04-26T22:39:47-05:00"
+    "CreationDate":  "2021-04-26T22:25:58-05:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "wren-numpad",
-      "GUID": "7772656e-2d6e-4756-9d70-61642e6b6963",
+      "Name": "wren-universal",
+      "GUID": "7772656e-2d75-46e6-9976-657273616c2e",
       "Revision": "rev?"
     },
     "Size":
@@ -38,47 +38,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "wren-numpad-F_Cu.gbr",
+      "Path":  "wren-universal-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-B_Cu.gbr",
+      "Path":  "wren-universal-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-F_Paste.gbr",
+      "Path":  "wren-universal-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-B_Paste.gbr",
+      "Path":  "wren-universal-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-F_SilkS.gbr",
+      "Path":  "wren-universal-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-B_SilkS.gbr",
+      "Path":  "wren-universal-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "wren-numpad-F_Mask.gbr",
+      "Path":  "wren-universal-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "wren-numpad-B_Mask.gbr",
+      "Path":  "wren-universal-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "wren-numpad-Edge_Cuts.gbr",
+      "Path":  "wren-universal-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
