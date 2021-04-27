@@ -10,10 +10,11 @@ My primary keyboard for the last few years has been Prime Keyboards' prime_o, be
 
 My original design simply incorporated a southpaw numpad. After some feedback on my original deign from members of the r/ergomechkeyboards community, though, I decided to reinvent it as a "system keyboard" modeled after the old system cameras. The repository includes a universal PCB (incorporating break-away tabs) and plates to make three boards, each reversible:
 - A Lilly58/Kyria-inspired split board, with no extra keys;
-- An extended layout with a 4x4 numpad; and
-- An extended layout with a traditional nav cluster.
+- An extended layout with a 4x4 numpad;
+- An extended layout with a traditional nav cluster; and
+- A small 4x4 macropad (nicknamed Egg).
 
-Each of these boards can be combined with the others in a split setup, so users can take their pick of a right or left nav cluster/numpad, or combine both in the same board. You could even just use two of the basic boards together for a more traditional layout, though I'm sure there are more elegant designs out there for that.
+Each of these boards (besides the macropad) can be combined with the others in a split setup, so users can take their pick of a right or left nav cluster/numpad, or combine both in the same board. You could even just use two of the basic boards together for a more traditional layout, though I'm sure there are more elegant designs out there for that.
 
 ## Controller
 The Wren uses a Pro Micro-compatible footprint, but is designed around the Elite-C's extra I/O pins on the numpad board. With just a Pro Micro, the outer column won't work. I _think_ you could get a Nice!Nano to full compatibility with some creative soldering from the mid-board I/O pins to the appropriate pins for the encoder, but I haven't spent any time on this myself.
@@ -45,6 +46,8 @@ It should be relatively affordable to have these boards manufactured; here are m
 - Plain PCB (5 boards): $10.70
 - Plain top plate (5 boards): $10.40
 - Plain bottom plate (5 boards): $10.70
+- Egg top plate (5 boards): $2.00
+- Egg bottom plate (5 boards): $2.00
 
 ## BOM
 ### Numpad Board
@@ -103,3 +106,15 @@ To assemble a nav cluster half, you'll need these parts:
 - 1 6mm push-button switch
 - 1 PJ320E TRRS jack
 - 2 4.7kΩ axial resistors
+
+### Egg Macro Pad
+To assemble an egg with a broken-off piece of a main board, you'll need these parts:
+- 1 Universal PCB
+- 1 Egg top plate
+- 1 Egg bottom plate
+- 1 Pro Micro compatible microcontroller
+- 4 8mm M2 threaded separators
+- 8 4mm M2 screws
+- 12/16 MX-style keyswitches
+- 12/16 1u MX keycaps
+- 12/16 1N4148 diodes
