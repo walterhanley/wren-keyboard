@@ -1,6 +1,6 @@
 # Wren Keyboard
 
-![Universal PCB](/images/wren-preview.png)
+![Universal PCB](/images/wren-universal.png)
 ![Example Layout](/images/author-layout.png)
 
 ## Introduction
