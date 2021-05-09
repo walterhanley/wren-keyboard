@@ -1728,10 +1728,6 @@ LEFT
 NoConn ~ 2550 2850
 Text GLabel 2650 2850 3    50   Input ~ 0
 COL9
-Text GLabel 1750 1550 0    50   Input ~ 0
-GND
-Text GLabel 1750 1650 0    50   Input ~ 0
-GND
 NoConn ~ 2350 2850
 NoConn ~ 2250 2850
 $Comp
@@ -1827,4 +1823,6 @@ Text GLabel 3150 4550 2    50   Input ~ 0
 ROW2
 Text GLabel 3150 4650 2    50   Input ~ 0
 ROW3
+NoConn ~ 1750 1550
+NoConn ~ 1750 1650
 $EndSCHEMATC
