@@ -1,4 +1,4 @@
-19303582831587605
+19295502397177605
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83741,54 +83741,19 @@ D_SOD123_axial
 6
 2
 footprints
+EPG00304NLN
+EPG.00.304.NLN-2
+Connector
+0
+8
+8
+footprints
 Elite-C
 
 
 0
 29
 29
-footprints
-MX-Alps_Switch_Cutout
-
-
-0
-0
-0
-footprints
-MX-Alps_Switch_Cutout-1u_1.25u
-
-
-0
-0
-0
-footprints
-MX-Alps_Switch_Cutout-1u_2u
-
-
-0
-0
-0
-footprints
-MX_Stabilizer_Cutout-2u
-
-
-0
-0
-0
-footprints
-MX_Switch_Cutout
-
-
-0
-0
-0
-footprints
-MX_Switch_Mod_Cutout
-
-
-0
-0
-0
 footprints
 SW_MX_reversible
 MX-style keyswitch, reversible
