@@ -3,6 +3,16 @@
 ![Universal PCB](/images/wren-universal.png)
 ![Example Layout](/images/author-layout.png)
 
+## Table of Contents
+- [Introduction](https://github.com/walterhanley/wren-keyboard#introduction)
+- [Controller](https://github.com/walterhanley/wren-keyboard#controller)
+- [PCB](https://github.com/walterhanley/wren-keyboard#pcb)
+- [Case and Plate](https://github.com/walterhanley/wren-keyboard#case-and-plate)
+- [Software](https://github.com/walterhanley/wren-keyboard#software)
+- [Cost Estimates and Purchasing](https://github.com/walterhanley/wren-keyboard#cost-estimates-and-purchasing)
+- [BOM](https://github.com/walterhanley/wren-keyboard#bom)
+- [Build Guide](https://github.com/walterhanley/wren-keyboard#build-guide)
+
 ## Introduction
 The Wren is a split ergonomic "system keyboard". It takes heavy inspiration from the Lily58, [Afternoon Labs' Breeze](https://afternoonlabs.com/breeze/) and [SplitKB's Kyria](https://blog.splitkb.com/blog/introducing-the-kyria), in addition to employing a case similar to the Corne's.
 
@@ -27,7 +37,7 @@ The PCB is also specifically designed around rotary encoders with a diameter les
 ## Case and Plate
 This repository includes a top and bottom plate designed around M2 screws and standoffs. As with the PCB, this plate is only compatible with MX switches. 
 
-The bottom plate can be manufactured out of FR4 PCB material by any manufacturer; this will likely be the most cost-effective option. The top plate cannot be manufactured by my preferred PCB fabricator, JLCPCB, but your milage may vary. Instead, I used the .eps files included in the Case folder to have my top plates manufactured in stainless steel by SendCutSend. 
+The bottom plate can be manufactured out of FR4 PCB material by any manufacturer; this will likely be the most cost-effective option. The top plate cannot be manufactured by my preferred PCB fabricator, JLCPCB, but your milage may vary. Instead, I used the .eps files included in the [Case folder](https://github.com/walterhanley/wren-keyboard/tree/main/Case) to have my top plates manufactured in stainless steel by SendCutSend. 
 
 To make a complete case, you'll need 7 M2 spacers (5 for the plain board), a top plate, and a bottom plate.
 
@@ -42,17 +52,26 @@ qmk compile -kb wren -km default
 
 This can be flashed to your keyboard [in the usual way](https://docs.qmk.fm/#/newbs_flashing). The push-button below the microcontroler will put the keyboard into DFU mode. 
 
+When customizing your keymap, note that the matrix includes all keys that would be present in a numpad-numpad pair. In other words, even if the left side of your physical keyboard lacks a numpad, your keymap.c file will include those keys. Feel free to either mark all those keys with a KC_NO keycode or leave them as-is--it's not like you can press them anyway :). As well, if you'd like to plug your USB cable into the right half instead of the default left, add the following to your config.h:
+
+```
+#define MASTER_RIGHT
+```
+
 If you end up implementing something for this board in ZMK please don't hesitate to let me know or submit a pull request--I'd be happy to include documentation of that here, as well.
 
 ## Cost Estimates and Purchasing
-It should be relatively affordable to have these boards manufactured. Here are my cost estimates at JLCPCB in USD as of April 2021:
-- Universal PCB (5 boards): $14.30
-- Numpad bottom plate (5 boards): $14.30
-- Nav bottom plate (5 Boards): $13.40
-- Plain bottom plate (5 boards): $10.70
+It should be relatively affordable to have these boards manufactured. Here are my costs for my PCB components at JLCPCB in USD as of September 2021:
+- Universal PCB (15 boards): $35.30
+- Numpad bottom plate (5 boards): $14.50
+- Nav bottom plate (5 Boards): $13.60
+- Plain bottom plate (5 boards): $10.80
 - Egg bottom plate (5 boards): $2.00
 
-If you can make do with symmetrical halves, you should be able to have two full boards manufactured for around $45. For asymmetrical halves, the cost is closer to $75.
+And for my plates from SendCutSend:
+- Numpad top plate (2 plates): $62.38
+- Nav top plate: $34.94
+- Plain top plate: $26.08
 
 The repository should include up-to-date zipped Gerber files, which can be used to have PCBs fabbed at your manufacturer of choice. I'm partial to JLCPCB (which consistently has very low prices and now offers aluminum PCB options for plates), but OSHPark is a good option if you're in the US and like purple or want single boards. For best compatibility, please have both plates and cases manufactured with a 1.6mm or 1.5mm thickness.
 
@@ -127,3 +146,5 @@ To assemble an egg with a broken-off piece of a main board, you'll need these pa
 - 12/16 MX-style keyswitches
 - 12/16 1u MX keycaps
 - 12/16 1N4148 diodes
+
+## Build Guide
