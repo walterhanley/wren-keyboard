@@ -25,25 +25,31 @@ The PCB uses reversible, MX-compatible footprints. There isn't hot-swap support 
 The PCB is also specifically designed around rotary encoders with a diameter less than 0.5". I'm using Kilo 50 sized knobs, but others in a similar size class will work well, too.
 
 ## Case and Plate
-This repository includes a top and bottom plate designed around M2 screws and standoffs. As with the PCB, this plate is only compatible with MX switches.
+This repository includes a top and bottom plate designed around M2 screws and standoffs. As with the PCB, this plate is only compatible with MX switches. 
+
+The bottom plate can be manufactured out of FR4 PCB material by any manufacturer; this will likely be the most cost-effective option. The top plate cannot be manufactured by my preferred PCB fabricator, JLCPCB, but your milage may vary. Instead, I used the .eps files included in the Case folder to have my top plates manufactured in stainless steel by SendCutSend. 
 
 To make a complete case, you'll need 7 M2 spacers (5 for the plain board), a top plate, and a bottom plate.
 
-Additionally, a 3D printed outer case has been planned. This design wraps the PCB and top plate in a printed outer layer. 
+Additionally, a 3D printed outer case is planned. This design wraps the PCB and top plate in a printed outer layer. 
 
 ## Software
-I'll have hardware in hand close to the end of July 2021 and will begin work on the firmware then. I plan on merging it into the main QMK tree, so it should be easy to build and configure if you already have that environment set up. If you end up implementing something for this board in ZMK please don't hesitate to let me know or submit a pull request--I'd be happy to include documentation of that here, as well.
+Tested code for this board is included in the main QMK repository. To build a hex file with the default keymap, use the following code after setting up your [QMK build environment](https://docs.qmk.fm/#/newbs_getting_started):
+
+```
+qmk compile -kb wren -km default
+```
+
+This can be flashed to your keyboard [in the usual way](https://docs.qmk.fm/#/newbs_flashing). The push-button below the microcontroler will put the keyboard into DFU mode. 
+
+If you end up implementing something for this board in ZMK please don't hesitate to let me know or submit a pull request--I'd be happy to include documentation of that here, as well.
 
 ## Cost Estimates and Purchasing
 It should be relatively affordable to have these boards manufactured. Here are my cost estimates at JLCPCB in USD as of April 2021:
 - Universal PCB (5 boards): $14.30
-- Numpad top plate (5 boards): $13.90
 - Numpad bottom plate (5 boards): $14.30
-- Nav top plate (5 boards): $13.10
 - Nav bottom plate (5 Boards): $13.40
-- Plain top plate (5 boards): $10.40
 - Plain bottom plate (5 boards): $10.70
-- Egg top plate (5 boards): $2.00
 - Egg bottom plate (5 boards): $2.00
 
 If you can make do with symmetrical halves, you should be able to have two full boards manufactured for around $45. For asymmetrical halves, the cost is closer to $75.
@@ -65,7 +71,7 @@ To assemble a numpad half, you'll need these parts:
 - 43 1u MX keycaps
 - 1 2u MX keycaps
 - 45 1N4148 diodes
-- 1 Alps EC-11 compatible rotary encoder
+- 1 Alps EC-11 compatible rotary encoder (Bourns PEC11L-4115F-S0020 recommended)
 - 1 Rotary encoder knob (0.5" diameter or less)
 - 1 2u PCB-mount cherry stabilizer
 - 1 6mm push-button switch
@@ -84,7 +90,7 @@ To assemble a nav cluster half, you'll need these parts:
 - 37 1u MX keycaps
 - 1 2u MX keycaps
 - 39 1N4148 diodes
-- 1 Alps EC-11 compatible rotary encoder
+- 1 Alps EC-11 compatible rotary encoder (Bourns PEC11L-4115F-S0020 recommended)
 - 1 Rotary encoder knob (0.5" diameter or less)
 - 1 2u PCB-mount cherry stabilizer
 - 1 6mm push-button switch
@@ -103,7 +109,7 @@ To assemble a nav cluster half, you'll need these parts:
 - 27 1u MX keycaps
 - 1 2u MX keycap
 - 29 1N4148 diodes
-- 1 Alps EC-11 compatible rotary encoder
+- 1 Alps EC-11 compatible rotary encoder (Bourns PEC11L-4115F-S0020 reccomended)
 - 1 Rotary encoder knob (0.5" diameter or less)
 - 1 2u PCB-mount cherry stabilizer
 - 1 6mm push-button switch
