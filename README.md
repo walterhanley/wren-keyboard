@@ -189,7 +189,7 @@ Remove any remaining tape and solder the remaining pins.
 
 6. Solder the controller to the headers on the front of the board. The controller should be facing down on the left half, and up on the right half. 
 
-![controller soldered](/images/tutorial/12_controller_soldered)
+![controller soldered](/images/tutorial/12_controller_soldered.jpeg)
 
 7. Place the reset button below the controller on the front of the board and solder it into place.
 
