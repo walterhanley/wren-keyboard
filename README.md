@@ -1,5 +1,6 @@
 # Wren Keyboard
 
+![glamor shot](/images/glamor_shot.jpeg)
 ![Universal PCB](/images/wren-universal.png)
 ![Example Layout](/images/author-layout.png)
 
