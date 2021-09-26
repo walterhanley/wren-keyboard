@@ -244,6 +244,10 @@ Remove any remaining tape and solder the remaining pins.
 
 ![rear plate attached](/images/tutorial/31_rear_plate_attached.jpeg)
 
-19. Admire your work! Your board is ready to be flashed. If necessary, repeat with the other side of the board.
+19. Attach rubber bumpers to the rear of the board for stability.
+
+![rubber bumpers](/images/tutorial/32_bumpers_attached.jpeg)
+
+20. Admire your work! Your board is ready to be flashed. If necessary, repeat with the other side of the board.
 
 ![finished](/images/tutorial/32_finished.jpeg)
