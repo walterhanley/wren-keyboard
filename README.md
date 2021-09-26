@@ -148,3 +148,104 @@ To assemble an egg with a broken-off piece of a main board, you'll need these pa
 - 12/16 1N4148 diodes
 
 ## Build Guide
+_Please note that this build guide refers to the "top" or "bottom" of the PCB. Since the PCB is reversible, these terms are relative to the final orientation of the board, not anything absolute. For example, the top of the right hand board would be the bottom of the left-hand board._
+
+0. If necessary, break off any unused sections of the PCB. This is best accomplished by placing the board on a hard, flat surface with the perforated section of the board placed over the edge. While holding the main section of the board to the surface, firmly press down on the section you'd like to detach until it breaks off. Then, use a file to remove any remnants of the perforation. 
+
+![break-off](/images/tutorial/0_break-off.jpeg)
+
+1. Next, place diodes on the bottom side of the PCB, taking care to place the diodes with the black stipe facing the square pad.
+
+![placing diodes](/images/tutorial/2_placing_diodes.jpeg)
+
+TIP: Use needle-node pliers to assist in bending diodes, as shown below.
+
+![bending diodes](/images/tutorial/1_bending_diodes.jpeg)
+
+2. Solder the diodes in place on the bottom side of the board.
+
+![soldering diodes](/images/tutorial/3_soldering_diodes.jpeg)
+
+3. Place the resistors on the bottom side of the PCB and solder them into place.
+
+![placing resistors](/images/tutorial/4_placing_resistors.jpeg)
+
+4. Turn the board over and clip the leads of the resistors and diodes as close as possible to the PCB. To avoid fitment issues with switches, ensure that the leads are cut nearly flush; nail clippers are good for this purpose.
+
+![unclipped leads](/images/tutorial/5_unclipped_leads.jpeg)
+![clipped leads](/images/tutorial/6_clipped_leads.jpeg)
+
+5. Place the headers for the microcontroller in place with the plastic spacer at the front of the board and secure them with a piece of painter's tape, taking care that they are perfectly straight. 
+
+![headers placed](/images/tutorial/7_headers_placed.jpeg)
+![headers taped](/images/tutorial/8_headers_taped.jpeg)
+![headers taped below](/images/tutorial/9_headers_taped_below.jpeg)
+
+Using the tape to ensure the headers remain straight, tack solder a pin on each strip.
+
+![headers tack soldered](/images/tutorial/10_headers_tack_soldered.jpeg)
+
+Remove any remaining tape and solder the remaining pins.
+
+![headers soldered](/images/tutorial/11_headers_soldered.jpeg)
+
+6. Solder the controller to the headers on the front of the board. The controller should be facing down on the left half, and up on the right half. 
+
+![controller soldered](/images/tutorial/12_controller_soldered)
+
+7. Place the reset button below the controller on the front of the board and solder it into place.
+
+![button placed](/images/tutorial/13_button_placed.jpeg)
+![button soldered](/images/tutorial/14_button_soldered.jpeg)
+
+8. Place the TRRS jack on the front of the PCB and solder it into place.
+
+![trrs placed](/images/tutorial/15_trrs_placed.jpeg)
+![trrs soldered](/images/tutorial/16_trrs_soldered.jpeg)
+
+9. Place the rotary encoder on the front of the PCB and solder it into place. Take care to ensure the encoder is as straight as possible; it is possible for the encoder to interfere with the plate if it's attached incorrectly.
+
+![encoder placed](/images/tutorial/17_encoder_placed.jpeg)
+![encoder soldered](/images/tutorial/18_encoder_soldered.jpeg)
+
+10. Place the stabilizer.
+
+![stab placed](/images/tutorial/19_stab_placed.jpeg)
+
+11. Snap the switches into the plate, taking care to match the orientation of the PCB. They will likely be a tight fit.
+
+![switches placed front](/images/tutorial/20_switches_placed_front.jpeg)
+![switches placed rear](/images/tutorial/21_switches_placed_rear.jpeg)
+
+12. Fit the switchplate onto the PCB, taking care to fit it around the encoder as shown.
+
+![encoder fit](/images/tutorial/22_encoder_fit.jpeg)
+![switchplate fitted](/images/tutorial/23_switchplate_fitted.jpeg)
+
+13. Tack solder the switchplate into place using the switches on the corners of the board.
+
+![switchplate tack soldered](/images/tutorial/24_switchplate_tack_soldered.jpeg)
+
+14. Finish soldering the switchplate.
+
+![switchplate soldered](/images/tutorial/25_switchplate_soldered.jpeg)
+
+15. Attach the knob for the rotary encoder.
+
+![encoder knob attached](/images/tutorial/27_encoder_knob_attached.jpeg)
+
+16. Attach the standoffs using a screw through the front of the PCB.
+
+![standoff attached front](/images/tutorial/28_standoff_attached_front.jpeg)
+![standoff attached rear](/images/tutorial/29_standoff_attached_rear.jpeg)
+![standoff attached all](/images/tutorial/30_standoff_attached_all.jpeg)
+
+17. Clean off any excess flux using isopropyl alchohol.
+
+18. Using the standoffs, attach the rear plate to the board.
+
+![rear plate attached](/images/tutorial/31_rear_plate_attached.jpeg)
+
+19. Admire your work! Your board is ready to be flashed. If necessary, repeat with the other side of the board.
+
+![finished](/images/tutorial/32_finished.jpeg)
