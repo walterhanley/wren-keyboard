@@ -250,4 +250,4 @@ Remove any remaining tape and solder the remaining pins.
 
 20. Admire your work! Your board is ready to be flashed. If necessary, repeat with the other side of the board.
 
-![finished](/images/tutorial/32_finished.jpeg)
+![finished](/images/tutorial/33_finished.jpeg)
