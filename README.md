@@ -157,7 +157,7 @@ _Please note that this build guide refers to the "top" or "bottom" of the PCB. S
 
 ![placing diodes](/images/tutorial/2_placing_diodes.jpeg)
 
-TIP: Use needle-node pliers to assist in bending diodes, as shown below.
+TIP: Use needle-nose pliers to assist in bending diodes, as shown below.
 
 ![bending diodes](/images/tutorial/1_bending_diodes.jpeg)
 
