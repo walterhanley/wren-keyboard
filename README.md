@@ -19,7 +19,7 @@ The Wren is a split ergonomic "system keyboard". It takes heavy inspiration from
 
 My primary keyboard for the last few years has been Prime Keyboards' prime_o, before which I used a handwired Planck. On both I made pretty heavy use of the numpad. I grew to appreciate the prime\_o's physical one, though, mostly because I spend a lot of time in Excel at my day job and like using the mouse and numpad simultaneously. I've been wanting to switch to ergo for a while, but I was annoyed by the thought of having to use a separate numpad to recreate that experience. This project was an attempt to solve that problem.
 
-My original design simply incorporated a southpaw numpad. After some feedback on my original design from members of the r/ergomechkeyboards community, though, I decided to reinvent it as a "system keyboard" modeled after the old system cameras. The repository includes a universal PCB (incorporating break-away tabs) and plates to make four boards, each reversible:
+My original design simply incorporated a southpaw numpad. After some feedback on my original design, though, I decided to reinvent it as a "system keyboard" modeled after the old system cameras. The repository includes a universal PCB (incorporating break-away tabs) and plates to make four boards, each reversible:
 - A Lilly58/Kyria-inspired split board, with no extra keys;
 - An extended layout with a 4x4 numpad;
 - An extended layout with a traditional nav cluster; and
