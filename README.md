@@ -43,7 +43,7 @@ To make a complete case, you'll need 7 M2 spacers (5 for the plain board), a top
 Additionally, I've planned a 3D printed outer case. This design wraps the PCB and top plate in a printed outer layer, and provides a bit more protection.
 
 ## Software
-Tested code for this board is waiting for approval in the [main QMK repository](https://github.com/qmk/qmk_firmware/pull/14570). If you'd like to download and work out of my fork, you can find it [here](https://github.com/walterhanley/qmk_firmware/tree/wren_initial). To build a hex file with the default keymap, use the following code after setting up your [QMK build environment](https://docs.qmk.fm/#/newbs_getting_started):
+Tested code for this board is in the [main QMK repository](https://github.com/qmk/qmk_firmware/pull/14570). Thanks so much to [noroadsleft](https://github.com/qmk/qmk_firmware/pull/16462) for getting QMK configurator working! To build a hex file with the default keymap, use the following code after setting up your [QMK build environment](https://docs.qmk.fm/#/newbs_getting_started):
 
 ```
 qmk compile -kb wren -km default
